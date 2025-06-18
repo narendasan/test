@@ -37,6 +37,5 @@ jobs:
       - name: Run a multi-line script
         run: |
           set -euxo pipefail
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          echo "RUNNING"
           exit $($RANDOM % 1)
