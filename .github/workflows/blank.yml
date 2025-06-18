@@ -38,4 +38,4 @@ jobs:
         run: |
           set -euxo pipefail
           echo "RUNNING"
-          exit $((1 + $RANDOM % 2))
+          exit $((1 - $RANDOM % 2))
